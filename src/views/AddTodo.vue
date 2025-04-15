@@ -71,5 +71,9 @@ form {
     margin-top: 10px;
     border-radius: 10px;
   }
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
 }
 </style>
